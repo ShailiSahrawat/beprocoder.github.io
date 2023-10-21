@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/1-.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link
+      class="brand"
+      rel="icon"
+      href="../img/titleimg2.png"
+      type="image/x-icon"
+    />
+    <title>HTML - 1 | BeProCoder</title>
+  </head>
+  <body>
+    <nav
+      class="navigation lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-0 py-2 z-20"
+    >
+      <div class="flex-1 flex justify-between items-center">
+        <a href="/" class="flex text-lg font-semibold mt-3 mb-3">
+          <img src="../img/logo.png" class="p-2 logo" alt="Rz Codes Logo" />
+          <div class="ml-3 mt-3 mb-3 text-slate-50">BeProCoder</div>
+        </a>
+      </div>
+      <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+        <svg
+          class="fill-current text-slate-50"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+        >
+          <title>menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </label>
+      <input class="hidden" type="checkbox" id="menu-toggle" />
+      <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+        <nav>
+          <ul
+            class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0"
+          >
+            <li class="py-2 lg:py-0">
+              <a
+                class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:text-slate-500"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li class="py-2 lg:py-0">
+              <a
+                class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:text-slate-500"
+                href="/notes.html"
+              >
+                Tutorial
+              </a>
+            </li>
+            <li class="py-2 lg:py-0">
+              <a
+                class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:text-slate-500"
+                href="/notes.html"
+              >
+                Notes
+              </a>
+            </li>
+            <li class="py-2 lg:py-0">
+              <a
+                class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:text-slate-500"
+                href="/contact.html"
+              >
+                Contact
+              </a>
+            </li>
+            <li class="py-4 lg:py-0">
+              <a class="text-red-600" href="#">
+                <button class="btn mt-1 hover:bg-slate-500">Login</button>
+              </a>
+            </li>
+            <li class="py-2 lg:py-0">
+              <a class="" href="#">
+                <button class="btn mt-1 hover:bg-slate-500">Signup</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+    <div class="md:px-8 px-2 w-[85%] mx-auto bg-gray-50 z-10">
+      <div class="flex mt-5 justify-between">
+        <h1
+          class="flex text-2xl lg:text-4xl font-semibold text-gray-800 dark:text-gray-800 mb-1"
+        >
+          HTML Introduction<!-- -->
+        </h1>
+      </div>
+      <div class="pt-2 cont font-karla min-h-screen dark:text-gray-800">
+        <p>
+          HTML (HyperText Markup Language) was created by Tim Berners-Lee in
+          1991 as a standard for creating web pages. It's a markup language used
+          to structure content on the web, defining elements like headings,
+          paragraphs, links, and images. HTML forms the backbone of web content.
+          In layman's terms, HTML is like the skeleton of a website. It's a set
+          of instructions that tells a web browser how to display text, images,
+          videos, and other elements on a webpage. Think of it as the building
+          blocks that create the structure and look of a website, similar to how
+          bricks and mortar are used to build a house.
+        </p>
+        <p>In a nutshell:</p>
+        <ul>
+          <li>
+            HTML&nbsp;is the language of the web, used to create websites.
+          </li>
+          <li>
+            HTML defines the barebone structure or layout of web pages that we
+            see on the Internet.
+          </li>
+          <li>
+            HTML consists of a set of tags contained within an HTML document,
+            and the associated files typically have either a
+            "<strong>.html</strong>" or "<strong>.htm</strong>" extension.
+          </li>
+          <li>
+            There are several versions of HTML, with HTML5 being the most recent
+            version.
+          </li>
+        </ul>
+        <h1>Features of HTML</h1>
+        <ul>
+          <li>
+            It is platform-independent. For example, Chrome displays the same
+            pages identically across different operating systems such as Mac,
+            Linux, and Windows.
+          </li>
+          <li>
+            Images, videos, and audio can be added to a web page (For example -
+            YouTube shows videos on their website)
+          </li>
+          <li>HTML is a markup language and not a programming language.</li>
+          <li>
+            It can be integrated with other languages like CSS, JavaScript, etc.
+            to show interactive (or dynamic) web pages
+          </li>
+        </ul>
+        <h2 class="text-2xl font-semibold">Why the Term HyperText &amp; Markup Language?</h2>
+        <p>
+          The term 'Hypertext Markup Language' is composed of two main words:
+          'hypertext' and 'markup language.' 'Hypertext' refers to the linking
+          of text with other documents, while 'markup language' denotes a
+          language that utilizes a specific set of tags.
+        </p>
+        <p>
+          Thus, HTML is the practice of displaying text, graphics, audio, video
+          etc. in a certain way using special tags.
+        </p>
+        <p>
+          <strong>Note: </strong>Tags are meaningful texts enclosed in angle
+          braces, like '&lt;...&gt;'. For example, the '&lt;head&gt;' tag. Each
+          tag has a unique meaning and significance in building an HTML page,
+          and it can influence the web page in various ways.
+        </p>
+        <p class="text-2xl font-semibold">Quick Exercise:</p>
+        <p>
+          Open a webpage of your choice, right-click on the browser, and select
+          'View Page Source,' and then you will see the HTML code for that page.
+        </p>
+        <p>
+        
+        </p>
+        <p>
+          This is the code that the server sent to display the page you're
+          currently viewing. In this tutorial, we'll learn how to write this
+          type of code using HTML.
+        </p>
+        <p class="text-2xl font-semibold">A beautiful analogy to understand HTML, CSS, and JavaScript:</p>
+        <p>
+          <img
+            style="display: block; margin-left: auto; margin-right: auto"
+            src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-home/html-car-example.png"
+            alt="tutorial image"
+            width="1005"
+            height="362"
+          />
+        </p>
+        <div>
+          <p>
+            In building a webpage, think of HTML, CSS, and JavaScript as
+            different parts of a car. HTML is like the car's skeleton, forming
+            the basic structure and frame. CSS adds the paint and finishing
+            touches, making the car look appealing with color, style, and
+            design. JavaScript is similar to the engine and mechanical parts,
+            infusing the car with functionality, movement, and interactive
+            features. Similarly, when developing a website, HTML lays out the
+            structure, CSS enhances its visual appeal, and JavaScript provides
+            interactivity and dynamic content
+          </p>
+        </div>
+        <p class="text-2xl font-semibold">History of HTML:</p>
+        <ul>
+          <li>
+            In 1989, Tim Berners-Lee established the World Wide Web (www), and
+            in 1991, he created the first version of HTML.
+          </li>
+          <li>
+            From 1995 to 1997, further work was done to develop and refine
+            different versions of HTML.
+          </li>
+          <li>
+            In 1999, a committee was organized that standardized HTML 4.0, a
+            version still used by many today.
+          </li>
+          <li>
+            The latest and most stable version of HTML is 5, also known as
+            HTML5.
+          </li>
+        </ul>
+        <p>
+          Feel free to read more history of HTML here on the
+          <a
+            title="HTML Wikipedia page"
+            href="https://en.wikipedia.org/wiki/HTML#:~:text=HTML%20version%20timeline"
+            target="_blank"
+            rel="noopener"
+            >HTML Wikipedia page
+          </a>
+          but I will move ahead and cover important aspects of HTML.
+        </p>
+        <p>
+          In the next tutorial, we'll continue our journey and understand how
+          websites work
+        </p>
+      </div>
+      <div class="flex my-5 justify-between">
+        <button
+          class="text-white cursor-pointer justify-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-purple-600 dark:hover:bg-purple-900 dark:disabled:bg-gray-500"
+          disabled=""
+        >
+          &lt; &lt; Previous</button
+        ><button onclick="location.href='/html-2.html'"
+          class="text-white cursor-pointer justify-center bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-blue-950 dark:hover:bg-blue-900 dark:disabled:bg-gray-500"
+        >
+          Next &gt; &gt;
+        </button>
+      </div>
+    </div>
+    
+    <footer class="text-gray-600 body-font z-10">
+      <div
+        class="container px-10 py-7 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <img class="logo logoFooter" src="../img/logo.png" alt="" />
+          <span class="ml-3 text-xl text-gray-50">BeProCoder</span>
+        </a>
+        <p
+          class="text-sm text-gray-50 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          Copyright © 2023 BeProCoder.com - &#64;shaili
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a
+            class="text-gray-50 cursor-pointer"
+            href="https://www.facebook.com/profile.php?id=100075437092811"
+            target="_blank"
+          >
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-50">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-50">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="ml-3 text-gray-50 cursor-pointer"
+            href="www.linkedin.com/in/shaili-s-6931bb228"
+          >
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

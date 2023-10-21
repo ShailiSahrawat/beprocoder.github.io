@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/notes.css">
+    <link class="brand" rel="icon" href="../img/titleimg2.png" type="image/x-icon">
+    <title>Notes | BeProCoder - Without Degree</title>
+</head>
+<body>
+    
+  <nav class=" navigation lg:px-16 px-6  shadow-md flex flex-wrap items-center lg:py-0 py-2 z-20">
+    <div class="flex-1 flex justify-between items-center">
+      <a href="/" class="flex text-lg font-semibold mt-3 mb-3">
+        <img
+          src="img/logo.png"
+          
+          class="p-2 logo"
+          alt="Rz Codes Logo"
+        />
+        <div class="ml-3 mt-3 mb-3 text-slate-50">BeProCoder</div>
+      </a>
+    </div>
+    <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+      <svg
+        class="fill-current text-slate-50"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <title>menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+      <nav>
+        <ul class=" text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:pb-4 hover:border-b-4 hover:text-slate-500"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:pb-4 hover:border-b-4 hover:text-slate-500"
+              href="/notes.html"
+            >
+              Tutorial
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:pb-4 hover:border-b-4 hover:text-slate-500"
+              href="/notes.html"
+            >
+              Notes
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class="hover:transition-all hover:duration-500 hover:ease-in-out text-slate-50 hover:pb-4 hover:border-b-4 hover:text-slate-500"
+              href="/contact.html"
+            >
+              Contact
+            </a>
+          </li>
+          <li class="py-4 lg:py-0 ">
+            <a
+              class="text-red-600"
+              href="#"
+            >
+            <button class="btn mt-1 hover:bg-slate-500">Login</button>
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 ">
+            <a
+              class=""
+              href="#"
+            >
+            <button class="btn mt-1 hover:bg-slate-500">Signup</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+
+     <section class="text-gray-600 body-font z-10">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4 justify-center">
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/javascript.png">
+                </a>
+                <div class="mt-1 justify-center flex flex-col items-center">
+                  <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">JS - Tutorial <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                  <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+                </div>
+              </div>
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/css.jpg">
+                </a>
+                <div class="mt-1 justify-center flex flex-col items-center">
+                  <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">CSS - Tutorial <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                  <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+                </div>
+              </div>
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/html3.jpg">
+                </a>
+                <div class="mt-1 justify-center flex flex-col items-center">
+                  <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">HTML - Tutorial <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                  <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+                </div>
+              </div>
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/dsa.jpg">
+                </a>
+                <div class="mt-1 justify-center flex flex-col items-center">
+                  <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">DSA <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                  <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+                </div>
+              </div>
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/python-logo.png">
+                </a>
+                <div class="mt-1 justify-center flex flex-col items-center">
+                  <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">Python - Tutorial <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                  <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+                </div>
+              </div>
+            <div class="lg:w-1/4 md:w-1/3 p-4 w-full border-gray-200 border rounded-xl m-8 flex flex-col">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/java_logo_640.jpg">
+              </a>
+              <div class="mt-1 justify-center flex flex-col items-center">
+                <h2 class="items-center text-center text-gray-900  text-xl font-2xl mb-1">Java - Tutorial <p class="text-gray-500 mt-0  text-sm">Start your learning today.</p></h2>
+                <button class=" inline-flex text-slate-50 bg-blue-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:text-slate-950 rounded text-lg">Start Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-gray-600 body-font z-10">
+        <div class="container px-10 py-7 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img class="logo logoFooter" src="../img/logo.png" alt="">
+            <span class="ml-3 text-xl text-gray-50">BeProCoder</span>
+          </a>
+          <p class="text-sm text-gray-50 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Copyright © 2023 BeProCoder.com - &#64;shaili  
+  
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-50 cursor-pointer" href="https://www.facebook.com/profile.php?id=100075437092811" target="_blank">
+              <svg fill="rgb(255,255,255)"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-50">
+              <svg fill="rgb(8,8,68)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-50">
+              <svg fill="rgb(8,8,68)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-50 cursor-pointer" href="www.linkedin.com/in/shaili-s-6931bb228" >
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+</body>
+</html>

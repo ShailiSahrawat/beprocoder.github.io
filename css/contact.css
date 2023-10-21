@@ -1,0 +1,40 @@
+#menu-toggle:checked + #menu {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.logoContact {
+  width: 100px;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+}
+
+.btn {
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #f3f4f6;
+  cursor: pointer;
+  margin-right: 2px;
+  /* margin-bottom: 4px; */
+  transition: all 0.3s ease-in-out;
+}
+.navigation {
+  background-color: rgb(8, 8, 68);
+  position: sticky;
+  top: 0;
+}
+
+footer{
+  background-color:rgb(8, 8, 68) ;
+}
+ 

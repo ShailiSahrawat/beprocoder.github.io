@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+:root { 
+  --main-bg-color: #bd6418;
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+
+.center{
+  text-align: center
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-1{
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.my-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: var(--font1);
+  font-size: 16px;
+  color: black;
+  background-color: #F3F4F6;
+  cursor: pointer;
+  margin-right: 5px;
+  /* margin-bottom: 10px; */
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-hero {
+  border: 1px solid none;
+  border-radius: 4px;
+  font-family: var(--font1);
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(8, 8, 68);
+  padding: 5px 7px;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+
+.btn-hero:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+
